@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spectral SC', serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-top: 7rem;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-size: 16px;
+}
+
+header {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    border-bottom: #333 2px solid;
+   }
+   
+   header, nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+   }
+   
+   nav ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0rem;
+   }
+
+.projectsHeader {
+    margin: 0 2rem;
+    transition: 0.5s;
+}
+
+.projectsContact {
+    margin: 0 2rem;
+    transition: 0.5s;
+}
+
+.projectsAbout {
+    margin: 0 2rem;
+    transition: 0.5s;
+}
+
+.projectsHeader:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.projectsContact:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.projectsAbout:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.logo-header{
+    transition: 0.5s;
+}
+
+.logo-header:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.main {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 10rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+}
+
+.texts {
+    margin-left: 5rem;
+}
+
+.texts h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.subtexts {
+    margin-top: 2rem;
+    font-size: 25px;
+}
+
+.projectsMain1 {
+    margin-top: 2rem;
+    color: white;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    display: flex;
+}
+
+.project1 {
+    margin-left: 5%;
+    width: 30%;
+    background-color: #333;
+    background-size: cover;
+    overflow: hidden;
+    height: 105px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 2%;
+}
+
+.project1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.project1:hover {
+    background-color: black;
+    height: 700px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.project1:hover .itens-proj {
+    display: block;
+    transition: 0.5s;
+}
+
+.project1 h1 {
+    font-size: 3rem;
+}
+
+.itens-proj {
+    display: none;
+}
+
+.image-proj1 {
+    margin-top: 1.5rem;
+
+}
+
+.image-proj1 img{
+    border: 2px solid white;
+}
+

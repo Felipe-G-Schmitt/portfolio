@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="imagex/png" href="./assets/logo-branca.png">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-header">
+            <a href="">
+                <image style="width: 60px; margin-left: 35px;" src="/assets/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <div class="projectsHeader">
+                    <a style="text-decoration: none;" href="#projects">
+                        <li style="display: flex;">
+                            <image src="./assets/projects.png" style="width: 45px" />
+                            <text style="margin-top: 12px; margin-left: 10px; color: black;">Projetos</text>
+                        </li>
+                    </a>
+                </div>
+                <div class="projectsContact" id="projectsContact">
+                    <a style="text-decoration: none;" href="">
+                        <li style="display: flex;">
+                            <image src="./assets/contact.png" style="width: 45px" />
+                            <text style="margin-top: 12px; margin-left: 10px; color: black;">Contatos</text>
+                        </li>
+                    </a>
+                </div>
+                <div class="projectsAbout" id="projectsAbout">
+                    <a style="text-decoration: none;" href="">
+                        <li style="display: flex;">
+                            <image src="./assets/about.png" style="width: 45px" />
+                            <text style="margin-top: 12px; margin-left: 10px; color: black;">Sobre</text>
+                        </li>
+                    </a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <image style="width: 500px; margin: 0; border: 3px black solid;" src="./assets/foto-minha.png"
+                alt="foto_Felipe"></image>
+            <div class="texts">
+                <h1>FELIPE GABRIEL SCHMITT</h1>
+                <div class="subtexts">
+                    <p>17 anos</p>
+                    <div style="margin-top: 1rem;">
+                        <p>Desenvolvedor Web</p>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <p>Ensino médio completo</p>
+                        <p>Técnico em Informática para a Internet</p>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <p>HTML CSS</p>
+                        <p>JAVASCRIPT MYSQL</p>
+                        <p>REACT NATIVE</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="title-project">
+            <h1 style="margin-top: 2rem; text-align: center;">Projetos</h1>
+        </div>
+        <div class="projectsMain1" id="projects1">
+            <div class="project1">
+                <a href="https://github.com/LucasCoelho1/pinas" target="_blank">
+                <div class="textsProject1">
+                    <h1>Projeto "Pinas"</h1>
+                    <div class="itens-proj">
+                        <div class="desc-proj1">
+                            <p>Desenvolvido por <b>Felipe Gabriel</b>, Lucas Coelho e Felipe Redivo, possuiamos o objetivo de criar
+                                um aplicativo em React Native onde o usuário poderia jogar um pequeno quiz, porém, para isso ele
+                                deveria criar uma conta e logar posteriormente</p>
+                        </div>
+                        <div id="imagemDiv" class="image-proj1">
+                            <img id="imagem-proj1" src="./assets/projects/print-pinas-home.png" alt="Imagem da home do Pinas">
+                        </div>     
+                                  
+                    </div>
+                </div>
+            </a>
+            </div>
+            <div class="project2">
+                <h1>Projeto 2</h1>
+                <p>Descrição do projeto 2</p>
+
+            </div>
+            </div>
+            <div class="project3">
+                <h1>Projeto 3</h1>
+                <p>Descrição do projeto 3</p>
+
+            </div>
+            <div class="project4">
+                <h1>Projeto 4</h1>
+                <p>Descrição do projeto 4</p>
+
+            </div>
+</body>
+<script>
+    // Array de URLs das imagens que deseja exibir
+    var imagens = ["./assets/projects/print-pinas-register.png", "./assets/projects/print-pinas-login.png", "./assets/projects/print-pinas-quiz.png"];
+
+    var index = 0; // Índice atual da imagem exibida
+
+    function alterarImagem() {
+    // Atualiza o src da imagem com a próxima imagem no array
+    document.getElementById("imagem-proj1").src = imagens[index];
+    
+    // Incrementa o índice ou volta ao início se alcançar o final do array
+    index = (index + 1) % imagens.length;
+    }
+
+
+    // Chama a função alterarImagem a cada 4 segundos (4000 milissegundos)
+    setInterval(alterarImagem, 4000);
+
+
+</script>
+</html>
