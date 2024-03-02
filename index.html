@@ -51,7 +51,7 @@
 
     <div class="container">
         <div class="main">
-            <image style="width: 500px; margin: 0; border: 3px black solid;" src="./assets/foto-minha.png"
+            <image style="width: 500px; margin: 0; border: 3px black solid;" id="foto-principal" src="./assets/foto-minha.png"
                 alt="foto_Felipe"></image>
             <div class="texts">
                 <h1>FELIPE GABRIEL SCHMITT</h1>
@@ -191,5 +191,15 @@
     }
 
     setInterval(alterarImagem4, 4000);
+
+    var fotos = ["./assets/foto-minha.png", "./assets/minha-foto.png", "./assets/foto-minha1.png", "./assets/minha-foto1.png", "./assets/foto-minha2.png"];
+    var index3 = 0;
+
+    function alterarFoto() {
+    document.getElementById("foto-principal").src = fotos[index3];
+    index3 = (index3 + 1) % fotos.length;
+    }
+
+    setInterval(alterarFoto, 2000);
 </script>
 </html>
