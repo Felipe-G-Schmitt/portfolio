@@ -136,7 +136,7 @@ header {
 
 .project1:hover {
     background-color: black;
-    height: 700px;
+    height: auto;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -183,7 +183,7 @@ header {
 
 .project2:hover {
     background-color: rgb(0, 135, 197);
-    height: 700px;
+    height: auto;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -239,7 +239,7 @@ header {
 
 .project3:hover {
     background-color: #685ca8;
-    height: 880px;
+    height: auto;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -248,7 +248,6 @@ header {
     display: block;
     transition: 0.5s;
 }
-
 .project3 h1 {
     font-size: 3rem;
 }
@@ -259,7 +258,6 @@ header {
 
 .image-proj3 {
     margin-top: 1.5rem;
-
 }
 
 .image-proj3 img{
@@ -286,7 +284,7 @@ header {
 
 .project4:hover {
     background-color: #a5f5cf;
-    height: 720px;
+    height: auto;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -310,7 +308,6 @@ header {
 
 .image-proj4 {
     margin-top: 1.5rem;
-
 }
 
 .image-proj4 img{
@@ -324,3 +321,39 @@ header {
     text-align: center;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 1320px) {
+    .projectsMain1 {
+      display: block;
+      
+    }
+    .projectsMain2 {
+      display: block;
+    }
+    .project1 {
+      margin-bottom: 2rem;
+      width: 100%;
+    }
+    /*.project1:hover {
+        height: 720px;
+    }*/
+    .project2 {
+      width: 100%;
+    }
+    /*.project2:hover {
+        height: 750px;
+    }*/
+    .project3 {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    /*.project3:hover {
+        height: 720px;
+    }*/
+    .project4 {
+      width: 100%;
+    }
+    /*.project4:hover {
+        height: 800px;
+    }*/
+  }
