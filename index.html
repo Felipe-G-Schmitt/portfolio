@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="logo-header">
-            <a href="">
+            <a href="index.html">
                 <image style="width: 60px; margin-left: 35px;" src="/assets/logo.png" alt="logo">
             </a>
         </div> <!--logo-header-->
@@ -29,14 +29,6 @@
                         </li>
                     </a>
                 </div> <!--projectsHeader-->
-                <div class="projectsAbout" id="projectsAbout">
-                    <a style="text-decoration: none;" href="">
-                        <li style="display: flex;">
-                            <image src="./assets/about.png" style="width: 45px" />
-                            <text style="margin-top: 12px; margin-left: 10px; color: black;">Sobre</text>
-                        </li>
-                    </a>
-                </div> <!--projectsAbout-->
                 <div class="projectsContact" id="projectsContact">
                     <a style="text-decoration: none;" href="#contacts">
                         <li style="display: flex;">
@@ -51,10 +43,9 @@
 
     <div class="container">
         <div class="main">
-            <image style="width: 500px; margin: 0; border: 3px black solid;" id="foto-principal" src="./assets/foto-minha.png"
-                alt="foto_Felipe"></image>
+            <image style="margin: 0; border: 3px black solid;" id="foto-principal" src="./assets/foto-minha.png" alt="foto_Felipe"></image>
             <div class="texts">
-                <h1>FELIPE GABRIEL SCHMITT</h1>
+                <h1 style="text-decoration: underline;">FELIPE GABRIEL SCHMITT</h1>
                 <div class="subtexts">
                     <p>17 anos</p>
                     <div style="margin-top: 1rem;">
@@ -63,10 +54,11 @@
                     <div style="margin-top: 1rem;">
                         <p>Ensino médio completo</p>
                         <p>Técnico em Informática para a Internet</p>
+                        <p>Análise e desenvolvimento de sistemas</p>
                     </div>
                     <div style="margin-top: 1rem;">
-                        <p>HTML CSS</p>
-                        <p>JAVASCRIPT MYSQL</p>
+                        <p>HTML | CSS</p>
+                        <p>JAVASCRIPT | MYSQL</p>
                         <p>REACT NATIVE</p>
                     </div>
                 </div> <!--subtexts-->
@@ -160,6 +152,24 @@
                             <p style="font-family:'Courier New', Courier, monospace;">Iririú, Joinville</p>
                         </div>
                     </div> <!--footer-texts-->
+                    <div class="redes">
+                        <div class="linkedin">
+                            <a href="https://www.linkedin.com/in/felipe-gabriel-schmitt-098066243/" target="_blank">
+                                <image src="./assets/linkedin -icon.png" style="margin-right: 10px; width: 30px;" />
+                            </a>
+                        </div>
+                        <div class="github-redes">
+                            <a href="https://github.com/Felipe-G-Schmitt" target="_blank">
+                                <image src="./assets/github-logo.png" style="margin-right: 10px; width: 30px;" />
+                            </a>
+                        </div>
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/feeeepers/" target="_blank">
+                                <image src="./assets/Instagram-icon.png" style="width: 30px;" />
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--footer-->
             </footer>
 
 </body>
@@ -194,7 +204,7 @@
 
     setInterval(alterarImagem4, 4000);
 
-    var fotos = ["./assets/foto-minha.png", "./assets/minha-foto.png", "./assets/foto-minha1.png", "./assets/minha-foto1.png", "./assets/foto-minha2.png"];
+    var fotos = ["./assets/foto-minha.png", "./assets/foto-minha1.png", "./assets/foto-minha2.png"];
     var index3 = 0;
 
     function alterarFoto() {
