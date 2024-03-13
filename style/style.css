@@ -115,6 +115,8 @@ header {
     text-align: center;
     transition: 0.5s;
     border-radius: 2%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .project1 a {
@@ -165,6 +167,8 @@ header {
     text-align: center;
     transition: 0.5s;
     border-radius: 2%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .project2 a {
@@ -221,6 +225,8 @@ header {
     text-align: center;
     transition: 0.8s;
     border-radius: 2%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .project3 a {
@@ -267,6 +273,8 @@ header {
     text-align: center;
     transition: 0.5s;
     border-radius: 2%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .project4 a {
@@ -410,7 +418,7 @@ header {
     }
   }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 653px) {
     .main img {
         width: 400px;
     }
@@ -424,8 +432,14 @@ header {
         border: 2px solid black;
         width: 100%;
     }
+    .project3 {
+        height: 180px;
+    }
     .image-proj3 img{
         width: 100%;
+    }
+    .textsProject3 h1{
+        font-size: 45px;
     }
     .image-proj4 img{
         width: 100%;
@@ -438,5 +452,87 @@ header {
     }
     header, nav ul {
         justify-content: center;
-       }
+    }
+}
+@media screen and (max-width: 577px){
+    .project2 {
+        height: 180px;
+    }
+    .project2:hover {
+        height: 800px;
+    }
+}
+@media screen and (max-width: 480px){
+    .main img {
+        width: 320px;
+    }
+    .project1 {
+        height: auto;
+        width: auto;
+    }
+    .project1:hover {
+        height: auto;
+        width: auto;
+    }
+    .project2 {
+        height: auto;
+        width: auto;
+    }
+    .project2:hover {
+        height: auto;
+        width: auto;
+    }
+    .project3 {
+        height: auto;
+        width: auto;
+    }
+    .project3:hover {
+        height: auto;
+        width: auto;
+    }
+    .project4 {
+        height: auto;
+        width: auto;
+    }
+    .project4:hover {
+        height: auto;
+        width: auto;
+    }
+}
+@media screen and (max-width: 420px) {
+    .main img {
+        width: 280px;
+    }
+    .project1 {
+        height: auto;
+        width: auto;
+    }
+    .project1:hover {
+        height: auto;
+        width: auto;
+    }
+    .project2 {
+        height: auto;
+        width: auto;
+    }
+    .project2:hover {
+        height: auto;
+        width: auto;
+    }
+    .project3 {
+        height: auto;
+        width: auto;
+    }
+    .project3:hover {
+        height: auto;
+        width: auto;
+    }
+    .project4 {
+        height: auto;
+        width: auto;
+    }
+    .project4:hover {
+        height: auto;
+        width: auto;
+    }
 }
