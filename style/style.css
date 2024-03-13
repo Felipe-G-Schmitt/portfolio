@@ -395,12 +395,17 @@ header {
       margin-bottom: 2rem;
     }
     .project3:hover {
-        height: 720px;
+        height: 750px;
     }
     .project4 {
       width: 100%;
     }
     .project4:hover {
+        height: 800px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .project3:hover {
         height: 800px;
     }
   }
@@ -412,8 +417,17 @@ header {
     .project3:hover {
         height: 850px;
     }
+    .image-proj1 img {
+        width: 100%;
+    }
     .image-proj2 img{
         border: 2px solid black;
+        width: 100%;
+    }
+    .image-proj3 img{
+        width: 100%;
+    }
+    .image-proj4 img{
         width: 100%;
     }
     .projectsHeader {
