@@ -70,10 +70,10 @@
         </div> <!--title-project-->
         <div class="projectsMain1" id="projects1">
             <div class="project1">
-                <a href="https://github.com/LucasCoelho1/pinas" target="_blank">
                 <div class="textsProject1">
                     <h1>Pinas</h1>
                     <div class="itens-proj">
+                        <a href="https://github.com/LucasCoelho1/pinas" target="_blank">
                         <div class="desc-proj1">
                             <p>Desenvolvido por <b>Felipe Gabriel</b>, Lucas Coelho e Felipe Redivo, possuiamos o objetivo de criar
                                 um aplicativo em React Native onde o usuário poderia jogar um pequeno quiz, porém, para isso ele
@@ -88,10 +88,10 @@
             </a>
             </div> <!--project1-->
             <div class="project2">
-                <a href="https://github.com/Felipe-G-Schmitt/FelipeGabrielSocial" target="_blank">
                 <div class="textsProject2">
                     <h1>FelipeSocial</h1>
                     <div class="itens-proj2">
+                        <a href="https://github.com/Felipe-G-Schmitt/FelipeGabrielSocial" target="_blank">
                         <div class="desc-proj2">
                             <p>Desenvolvido por <b>Felipe Gabriel</b> no técnico de Informática para a Internet, tinha como propósito desenvolver um aplicativo 
                                 usando React Native no qual o usuário possa compartilhar fotos para que sejam mostradas no feed. No entanto, para fazer isso, 
@@ -107,10 +107,10 @@
             </div> <!--projectsMain1-->
             <div class="projectsMain2" id="projects2">
                 <div class="project3">
-                    <a href="https://github.com/Felipe-G-Schmitt/AvaliacaoFelipeELucas" target="_blank">
                     <div class="textsProject3">
                         <h1>Avaliação Final</h1>
                         <div class="itens-proj3">
+                            <a href="https://github.com/Felipe-G-Schmitt/AvaliacaoFelipeELucas" target="_blank">
                             <div class="desc-proj3">
                                 <p>Desenvolvido por <b>Felipe Gabriel</b> e Lucas Coelho utilizando o framework React Native, programamos um aplicativo que possuia uma "home"
                                 apresentando os programadores, e uma página contendo uma seta indicando a direção que o dispositivo esteja apontado, além disso um mapa exibindo
@@ -124,10 +124,10 @@
                 </a> 
                 </div> <!--project3-->
                 <div class="project4">
-                    <a href="https://github.com/LucasCoelho1/TodoAppKiwi" target="_blank">
                     <div class="textsProject4">
                         <h1>App Kiwi</h1>
                         <div class="itens-proj4">
+                            <a href="https://github.com/LucasCoelho1/TodoAppKiwi" target="_blank">
                             <div class="desc-proj4">
                                 <p>Desenvolvido por <b>Felipe Gabriel</b> e Lucas Coelho, tinhamos o objetivo de criar um aplicativo com a temática de uma fruta, o software deveria 
                                     contar com algumas "libs" do react native, sendo proposto um tema padrão de cor, ícones interativos personalizados, uma barra de navegação na parte 
@@ -213,5 +213,11 @@
     }
 
     setInterval(alterarFoto, 2000);
+
+    var projeto1 = document.getElementById('projeto1');
+
+    projeto1.addEventListener('click', function() {
+    this.classList.toggle('active');
+});
 </script>
 </html>

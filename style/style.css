@@ -130,12 +130,12 @@ header {
     background-color: black;
     height: 700px;
     transition: 0.5s;
-    cursor: pointer;
 }
 
 .project1:hover .itens-proj {
     display: block;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .project1 h1 {
@@ -148,7 +148,6 @@ header {
 
 .image-proj1 {
     margin-top: 1.5rem;
-
 }
 
 .image-proj1 img{
@@ -183,6 +182,7 @@ header {
 .project2:hover .itens-proj2 {
     display: block;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .project2 h1 {
@@ -238,6 +238,7 @@ header {
 .project3:hover .itens-proj3 {
     display: block;
     transition: 0.5s;
+    cursor: pointer;
 }
 .project3 h1 {
     font-size: 3rem;
@@ -287,6 +288,7 @@ header {
 .project4:hover .itens-proj4 {
     display: block;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .project4 h1 {
